@@ -1,0 +1,11 @@
+mask-name: Robber Mask
+mask-desc: 100% hide you nick
+mask-material: BLACK_WOOL #https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+
+craft-key: robber_mask
+shape:
+  - "WWW"
+  - "W W"
+  - "WWW"
+ingredients:
+  W: BLACK_WOOL # <char>: Material (look here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)

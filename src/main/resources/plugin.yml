@@ -1,0 +1,4 @@
+name: RobberMask
+version: '1'
+main: lhost.plugin
+api-version: '1.21'
