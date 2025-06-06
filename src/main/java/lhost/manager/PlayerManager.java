@@ -15,7 +15,8 @@ public class PlayerManager
     public void acceptItemToHead(Player player, ItemStack item)
     {
         PlayerInventory inv = player.getInventory();
-        if (inv.getHelmet().getType() != Material.AIR) return;
+        ItemStack helmet = inv.getHelmet();
+        if (helmet != null) return;
         if (inv.getItemInMainHand().equals(item))
         {
             inv.setHelmet(item);
